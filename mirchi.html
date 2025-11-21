@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirchi (Chilli) Farming</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff0e6;
+    }
+
+    header h1 {
+      background-color: darkred;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ff9999;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    .card img {
+      transition: transform 1s ease, opacity 1s ease;
+    }
+
+    .card img:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+
+    nav ul li a {
+      color: darkred;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: darkred;
+      color: white;
+    }
+
+    main {
+      flex: 1;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: darkred;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #ff6666;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mirchi (Chilli) Farming in India</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Mirchi Farming Images and Information</h2>
+
+    <div class="row g-4">
+      <!-- Mirchi Plant -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/m4.jpg" class="card-img-top" alt="Mirchi Plant">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mirchi Plant</h5>
+            <p class="card-text" style="text-align: justify;">Mirchi (chilli) plants are rich in vitamins and are an essential spice crop in India.</p>
+            <a href="https://en.wikipedia.org/wiki/Chili_pepper" class="btn btn-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mirchi Harvest -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/m1.jpg" class="card-img-top" alt="Mirchi Harvesting">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mirchi Harvesting</h5>
+            <p class="card-text" style="text-align: justify;">Harvesting starts when the fruits turn red. Chillies are dried naturally under the sun.</p>
+            <a href="https://agricoop.gov.in/" class="btn btn-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dried Mirchi -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/m5.jpg" class="card-img-top"  width="700" height="235"alt="Dried Mirchi">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dried Red Mirchi</h5>
+            <pclass="card-text" style="text-align: justify;">Dried red chillies are used in Indian cuisine and are exported worldwide for their flavor.</p>
+            <a href="https://apeda.gov.in/" class="btn btn-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <marquee>© 2025 Ghana Web Project. All rights reserved @GHANA</marquee>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Andhra Pradesh Agriculture</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color:aqua;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    header h1 {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin: 0;
+    }
+   
+    nav {
+      background-color: #b3ffb3;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: darkgreen;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid darkgreen;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: darkgreen;
+      color: white;
+    }
+
+    .contact-section {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 50px 0;
+    }
+
+    .contact-form,
+    .contact-details {
+      background-color: #e9ffe9;
+      border-radius: 15px;
+      padding: 30px;
+      width: 45%;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .form-control {
+      border-radius: 10px;
+    }
+
+    .btn-success {
+      width: 100%;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+
+    .contact-image {
+      width: 45%;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+    }
+
+    @media (max-width: 992px) {
+      .contact-form, .contact-details, .contact-image .header{
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+
+  <main>
+    
+
+    <div class="contact-section container">
+      <div class="contact-form">
+        <h4 class="text-success mb-3">Send Us a Message</h4>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Your Message</label>
+            <textarea class="form-control" rows="4" placeholder="Write your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-success">Send Message</button>
+          
+        </form>
+      </div>
+
+      <div class="contact-details">
+        <h4 class="text-success mb-3">Contact Details</h4>
+        <p><strong>Address:</strong> SHOP NO 42, S.K.B.R COMPLEX, STATION ROAD,<br>
+          NARASARAOPET, Guntur, Andhra Pradesh</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> mallareddy@gmail.com</p>
+        <p><strong>Working Hours:</strong> Mon – Sun, 8:00 AM – 9:00 PM</p>
+
+        <h5 class="text-success">Our Location</h5>
+        <iframe
+          src="https://www.google.com/maps?q=Narasarapet%20Andhra%20Pradesh&output=embed"
+          width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="contact-image">
+        <img src="images/contact.jpg" alt="Agriculture field"> <!-- 🔹 Change this image -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <marquee>© 2025 Ghana Web Project. All Rights Reserved @GHANA</marquee>
+  </footer>
+
+</body>
+
+</html>

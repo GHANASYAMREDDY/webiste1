@@ -1,0 +1,67 @@
+
+       body {
+      background-image: url("images/bg1.jpg");
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+    /* Header */
+    h1 {
+      
+      color: black;
+      text-align: center;
+      
+      margin:top;
+    }
+
+    /* Navigation */
+    nav {
+      text-align: center;
+      
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: darkgreen;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.4s ease; /* smooth transition */
+  border: 2px solid blue;
+    }
+
+    nav ul li a:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.1); /* makes it pop slightly */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Footer */
+    footer {
+      background-color: aqua;
+      color: black;
+      text-align: center;
+      
+      font-weight: bold;
+      margin-top: auto; /* pushes footer to bottom */
+    }
+  

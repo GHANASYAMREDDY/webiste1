@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomato Farming</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff3f3;
+    }
+
+    header h1 {
+      background-color: crimson;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: #ffc1c1;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: darkred;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: darkred;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    main {
+      flex: 1;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: darkred;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: crimson;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+      margin-top: auto;
+    }
+
+    /* Image Transition Effect */
+    .card img {
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .card img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn-transition {
+      transition: all 0.4s ease;
+    }
+
+    .btn-transition:hover {
+      background-color: darkred;
+      color: white;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tomato Farming in India</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="btn-transition">Home</a></li>
+        <li><a href="about.html" class="btn-transition">About</a></li>
+        <li><a href="gallery.html" class="btn-transition">Gallery</a></li>
+        <li><a href="contact.html" class="btn-transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Tomato Farming Images and Information</h2>
+
+    <div class="row g-4">
+      <!-- Tomato Field -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/t3.jpg" class="card-img-top"  width="700" height="250"alt="Tomato Field">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tomato Field</h5>
+            <p class="card-text" style="text-align: justify;">Tomatoes thrive in warm, sunny climates and are one of India’s most popular crops.</p>
+            <a href="https://en.wikipedia.org/wiki/Tomato" class="btn btn-danger btn-transition" target="_blank">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tomato Harvesting -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/t2.jpg" class="card-img-top" width="700" height="250" alt="Tomato Harvesting">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tomato Harvesting</h5>
+            <p class="card-text" style="text-align: justify;">Ripe red tomatoes are carefully harvested and transported to markets across India.</p>
+            <a href="https://agricoop.gov.in/" class="btn btn-danger btn-transition" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tomato Products -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/t5.jpg" class="card-img-top"  width="700" height="250"alt="Tomato Products">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tomato Products</h5>
+            <p class="card-text" style="text-align: justify;">Tomatoes are used to make sauces, ketchup, and many other delicious products.</p>
+            <a href="https://apeda.gov.in/" class="btn btn-danger btn-transition" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <marquee>© 2025 Ghana Web Project. All rights reserved @GHANA</marquee>
+  </footer>
+
+  

@@ -1,0 +1,99 @@
+ body {
+
+     background-image: url("images/bg1.jpg");
+     background-size: cover;
+     background-position: center;
+     margin: 0;
+     min-height: 100vh;
+
+     flex-direction: column;
+     font-family: Arial, sans-serif;
+ }
+
+
+
+ .container {
+     display: grid;
+     align-items: center;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 10px;
+ }
+
+ .card img {
+     transition: transform 1s ease, opacity 1s ease;
+ }
+
+ .card img:hover {
+     transform: scale(1.1);
+     opacity: 0.9;
+ }
+
+
+ nav ul li {
+     display: inline;
+     margin-right: 20px;
+     text-align: center;
+     color: rgb(46, 17, 212);
+ }
+
+ h1 {
+
+     color: black;
+     text-align: center;
+     background-color: blue;
+     margin: top;
+     padding: 2px;
+ }
+
+ h2 {
+
+     color: black;
+     text-align: center;
+     background-color: yellow;
+     margin: top;
+     padding: 2px;
+ }
+
+ /* Navigation */
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ nav ul li {
+     display: inline-block;
+     margin: 0 15px;
+ }
+
+ nav ul li a {
+  color: darkred;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.4s ease; /* smooth transition */
+  border: 2px solid darkred;
+}
+
+nav ul li a:hover {
+  background-color: darkred;
+  color: white;
+  transform: scale(1.1); /* makes it pop slightly */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+ 
+ 
+
+ /* Footer */
+ footer {
+     background-color: yellow;
+     color: black;
+     text-align: center;
+
+     font-weight: bold;
+     margin-bottom: auto;
+     /* pushes footer to bottom */
+ }

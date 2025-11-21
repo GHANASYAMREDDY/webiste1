@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweetcorn (Maize) Farming</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: #fffbea;
+    }
+
+    header h1 {
+      background-color: darkgreen;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: #b6e388;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: darkgreen;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: darkgreen;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    main {
+      flex: 1;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: darkgreen;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #66bb6a;
+      color: blue;
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+      margin-top: auto;
+    }
+
+    main {
+      background-color: yellow;
+      flex: 1;
+      padding: 20px;
+    }
+
+    /* Image Transition Effect */
+    .card img {
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .card img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn-transition {
+      transition: all 0.4s ease;
+    }
+
+    .btn-transition:hover {
+      background-color: yellow;
+      color: red;
+      transform: scale(1.05);
+    }
+
+    h2 {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Sweetcorn (Maize) Farming in India</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="btn-transition">Home</a></li>
+        <li><a href="about.html" class="btn-transition">About</a></li>
+        <li><a href="gallery.html" class="btn-transition">Gallery</a></li>
+        <li><a href="contact.html" class="btn-transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <h2>Sweetcorn Farming Images and Information</h2>
+  <main class="container">
+
+
+    <div class="row g-4">
+      <!-- Sweetcorn Field -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/p14.jpg" class="card-img-top" width="700" height="250" alt="Sweetcorn Field">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sweetcorn Field</h5>
+            <p class="card-text" style="text-align: justify;">Sweetcorn grows best in fertile, well-drained soil with
+              plenty of sunlight.</p>
+            <a href="https://en.wikipedia.org/wiki/Maize" class="btn btn-success btn-transition" target="_blank">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Corn Harvesting -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/p1.jpg" class="card-img-top" width="700" height="250" alt="Corn Harvesting">
+          <div class="card-body text-center">
+            <h5 class="card-title">Corn Harvesting</h5>
+            <p class="card-text" style="text-align: justify;">Harvesting is done when kernels are bright yellow and full
+              of sweetness.</p>
+            <a href="https://agricoop.gov.in/" class="btn btn-success btn-transition" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Packed Sweetcorn -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/p3.jpg" class="card-img-top" width="700" height="250" alt="Packed Sweetcorn">
+          <div class="card-body text-center">
+            <h5 class="card-title">Processed Sweetcorn</h5>
+            <p class="card-text" style="text-align: justify;">Sweetcorn is widely used in snacks, soups, and frozen food
+              products.</p>
+            <a href="https://apeda.gov.in/" class="btn btn-success btn-transition" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <marquee>© 2025 Ghana Web Project. All rights reserved @GHANA</marquee>
+  </footer>
+</body>
+</html>
